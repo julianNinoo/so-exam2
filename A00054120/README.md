@@ -29,21 +29,21 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
  * Configuración del token.
 Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el siguiente comando:
 
-[]!(imagenes/installGityClonar.png)
+![](imagenes/installGityClonar.png)
 
 ```
  git config remote.origin.url "https://topSecretToken@github.com/Lauraitp/so-exam2.git"
 ```
 
-[]!(imagenes/token.png)
+![](imagenes/token.png)
 
  *Pantallas con el uso de comandos abreviados de git.
 
-[]!(imagenes/addStatus.png)
+![](imagenes/addStatus.png)
 
-[]!(imagenes/statusCommit.png)
+![](imagenes/statusCommit.png)
 
-[]!(imagenes/ggp.png)
+![](imagenes/ggp.png)
 
 _____________________________
 
@@ -73,9 +73,9 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 $ source ~/.zshrc
 ```
 
-[]!(imagenes/autosuggest.png)
+![](imagenes/autosuggest.png)
 
-[]!(imagenes/autosuggest2.png)
+![](imagenes/autosuggest2.png)
 
 ________________________
 
