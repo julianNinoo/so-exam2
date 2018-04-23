@@ -127,7 +127,7 @@ Prefijo R para reload:
 
  * En asciinema:
 
-	*primero se debe instalar ASCIINEMA
+	* primero se debe instalar ASCIINEMA
  ```
 apt-get install asciinema -y
 ```
