@@ -81,5 +81,54 @@ ________________________
 
 3. Instalación y configuración del tmux
 
+ * Instalar tmux:
 
+```
+apt-get install tmux -y
+```
+
+ * Configurar tmux con el prefijo A
+
+```
+$ vi ~/.tmux.conf
+```
+
+```
+# use C-a, since it's on the home row and easier to hit than C-b
+set-option -g prefix C-a
+unbind-key C-a
+bind-key C-a send-prefix
+set -g base-index 1
+
+# Easy config reload
+bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
+
+# vi is good
+setw -g mode-keys vi
+
+# Setup 'v' to begin selection as in Vim
+bind-key -Tcopy-mode-vi v send -X begin-selection
+```
+
+![](imagenes/prefijoA.png)
+
+![](imagenes/prefijoR.png)
+
+ * Activar vi mode
+
+![](imagenes/modoVi.png)
+
+ * En asciinema:
+	*primero se debe instalar ASCIINEMA
+ ```
+apt-get install asciinema -y
+```
+
+![](imagenes/installASCIINEMA.png)
+
+** URL: ** https://asciinema.org/a/4hdyW1tMOYlQHtKdvsgbs2bZu
+
+![](imagenes/buscar.png)
+
+![](imagenes/resultado.png)
 
