@@ -37,7 +37,7 @@ Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el sig
 
 ![](imagenes/token.png)
 
- *Pantallas con el uso de comandos abreviados de git.
+ * Pantallas con el uso de comandos abreviados de git.
 
 ![](imagenes/addStatus.png)
 
@@ -49,7 +49,7 @@ _____________________________
 
 4. Instalación y configuración de:
 
- *zsh-autosuggestion:
+ * zsh-autosuggestion:
 
 Para la instalación de este plugin se debe seguir con los siguientes pasos:
 
