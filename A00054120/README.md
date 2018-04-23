@@ -1,4 +1,4 @@
-#PARCIAL 2
+# PARCIAL 2
 
 **Universidad Icesi**
 
@@ -126,6 +126,7 @@ Prefijo R para reload:
 ![](imagenes/modoVi.png)
 
  * En asciinema:
+
 	*primero se debe instalar ASCIINEMA
  ```
 apt-get install asciinema -y
