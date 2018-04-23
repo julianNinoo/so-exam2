@@ -30,7 +30,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el siguiente comando:
 
 ```
- git config remote.origin.url "https://b4ebb92014db6de405ede0a9304dbc45a5e5a774@github.com/Lauraitp/so-exam2.git"
+ git config remote.origin.url "https://topSecretToken@github.com/Lauraitp/so-exam2.git"
 ```
 
 []!(imagenes/token.png)
