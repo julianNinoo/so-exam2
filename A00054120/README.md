@@ -35,7 +35,6 @@ Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el sig
  git config remote.origin.url "https://topSecretToken@github.com/Lauraitp/so-exam2.git"
 ```
 
-![](imagenes/token.png)
 
  * Pantallas con el uso de comandos abreviados de git.
 
@@ -65,13 +64,15 @@ $ vi ~/.zshrc
 plugins=(git vi-mode zsh-autosuggestions)
 $ source ~/.zshrc
 ```
-Modificar el valor para las sugerencias, en mi caso sá amarillo:
+Modificar el valor para las sugerencias, en mi caso será amarillo:
 
 ```
 $ vi $ZSH_CUSTOM/dbarragan.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 $ source ~/.zshrc
 ```
+
+Pantallas con ejemplos:
 
 ![](imagenes/autosuggest.png)
 
@@ -110,7 +111,13 @@ setw -g mode-keys vi
 bind-key -Tcopy-mode-vi v send -X begin-selection
 ```
 
+Prefijo A para realizar todo, mi llave:
+
+Ejmeplo para dividir las pantallas
+
 ![](imagenes/prefijoA.png)
+
+Prefijo R para reload:
 
 ![](imagenes/prefijoR.png)
 
@@ -128,7 +135,10 @@ apt-get install asciinema -y
 
 ** URL: ** https://asciinema.org/a/4hdyW1tMOYlQHtKdvsgbs2bZu
 
+Pantallas de ejemplos
+
 ![](imagenes/buscar.png)
 
 ![](imagenes/resultado.png)
+
 
