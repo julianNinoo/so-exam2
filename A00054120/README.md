@@ -34,4 +34,3 @@ Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el sig
 ```
 
 []!(imagenes/token.png)
-
