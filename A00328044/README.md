@@ -43,3 +43,5 @@ Seleccionar los comandos
 - Salida de telnet towel.blinkenlights.nl
 
 ## Punto 7
+![](Images/crontab.PNG)
+![](Images/slack.PNG)
