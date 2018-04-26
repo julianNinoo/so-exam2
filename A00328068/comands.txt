@@ -123,3 +123,29 @@
   123  cd A00328068
   124  ls
   125  history < comandos.txt
+  126  history > comandos.txt
+  127  ls
+  128  nano comandos.txt
+  129  cd ..
+  130  touch A00328068
+  131  gaa
+  132  gcmsg "add rama"
+  133  ggp
+  134  ^[[200~git config remote.origin.url "https://eabb4a35602246b85773e05e02a1c7d569c0fac6@github.com/ediguerrero/so-exam2.git"
+  135  ~git config remote.origin.url "https://eabb4a35602246b85773e05e02a1c7d569c0fac6@github.com/ediguerrero/so-exam2.git"\n
+  136  git config remote.origin.url "https://eabb4a35602246b85773e05e02a1c7d569c0fac6@github.com/ediguerrero/so-exam2.git"\n
+  137  ggp
+  138  ls
+  139  cd A00328068
+  140  ls
+  141  history < comandos.txt
+  142  cd ..
+  143  touch A00328068
+  144  gaa
+  145  gcmsg "add comands"
+  146  ls
+  147  cd A00328068
+  148  ls
+  149  rm comandos.txt
+  150  ls
+  151  history < comands.txt
