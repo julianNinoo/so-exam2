@@ -19,7 +19,14 @@ Por medio de capturas de pantalla muestre el autocompletado de dos comandos
 ![][3]
 
 # punto 5
+Activar el modo vi para la navegación a través del buffer (salida de la linea de comandos). Active tambien el modo de copia visual a portapapeles.
+
+![][4]
+
+# punto 6
+
 
 [1]:images/Captura1.PNG
 [2]:images/Captura2.PNG
 [3]:images/Captura3.PNG
+[4]:images/Captura9.PNG
