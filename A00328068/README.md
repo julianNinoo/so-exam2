@@ -1,4 +1,4 @@
-# Parcial 1
+# Parcial 2
 
 ### **Nombre:** edisson guerrero
 ### **Código:** A00328068
