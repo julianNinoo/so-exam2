@@ -12,5 +12,14 @@ Capturas de pantalla muestre el uso de los alias gaa, gcmsg y ggp para el envío
 ![][1]
 
 # punto 4
+Por medio de capturas de pantalla muestre el autocompletado de dos comandos
+
+![][2]
+
+![][3]
+
+# punto 5
 
 [1]:images/Captura1.PNG
+[2]:images/Captura2.PNG
+[3]:images/Captura3.PNG
