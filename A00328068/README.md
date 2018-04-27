@@ -9,4 +9,4 @@
 # punto 3
 Capturas de pantalla muestre el uso de los alias gaa, gcmsg y ggp para el envío de un commit a su fork del repositorio so-exam2.
 ![][1]
-[1]:images/captura1.PNG
+[1]:images/Captura1.PNG
