@@ -29,4 +29,4 @@ Activar el modo vi para la navegación a través del buffer (salida de la linea 
 [1]:images/Captura1.PNG
 [2]:images/Captura2.PNG
 [3]:images/Captura3.PNG
-[4]:images/captura9.PNG
+[4]:images/captura9.png
