@@ -59,6 +59,13 @@ if __name__ == "__main__":
     codigo_punto6.run()
 ```
 
+**Crontab:**
+Agregar al archivo de crontab para agendar el proceso cada 10 minutos:  
+```
+ 0,10,20,30,40,50 * * * * /home/operativos/so-exam2/A00309924/codigo_punto6.py
+```
+
+
 *imagen canal Slack*
 ![](images/slack%20message.PNG)  
 
