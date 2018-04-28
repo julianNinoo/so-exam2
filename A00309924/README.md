@@ -17,7 +17,7 @@ $ vi ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
   ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='yellow'
 ```  
   
-*Comandos resaltados en amarillo:*
+*Comandos resaltados en amarillo:*  
 ![](images/echo%20Somethin%20zsh%20auto%20yellow.PNG)     
 ![](images/source%20zsh%20auto%20yellow.PNG)   
 
