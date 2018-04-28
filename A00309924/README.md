@@ -4,7 +4,7 @@
 **Curso:** Sistemas Operativos  
 **Estudiante:** Juan Felipe Reyes Garcia  
 **Codigo:** A00309924  
-**Correo:** juanfe_518@hotmail.co  
+**Correo:** juanfe_518@hotmail.com   
   
  **Instalación zsh y oh-my-zsh**  
  Se instala zsh, el cual tiene abreviaciones para diferentes comandos de git:  
