@@ -37,6 +37,15 @@ Incluya una captura de pantalla de los cuatro cuadrantes
 ![][9]
 
 # punto 7
+Incluya el código fuente de la aplicación en un directorio de nombre codigo_punto6, incluya además capturas de pantalla como evidencia.
+en la siguiente imagen se ve como cada 10 minutos llegan los datos de cpu a slack gracias al codigo de crontab (tambien se adjunta imagen del codigo) , ademas el codigo hecho para el envio del mensaje está en la carpeta codigo_punto6 como lo dicen las especificaciones
+
+![][10]
+
+![][11]
+
+
+
 
 [1]:images/Captura1.PNG
 [2]:images/Captura2.PNG
@@ -47,3 +56,5 @@ Incluya una captura de pantalla de los cuatro cuadrantes
 [7]:images/Captura6.png
 [8]:images/captura7.png
 [9]:images/capruta8.png
+[10]:images/captura11.png
+[11]:images/captura10.png
