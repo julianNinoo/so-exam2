@@ -4,5 +4,7 @@
 **URL repositorio:** https://github.com/leonleo997/so-exam2.git  
 
 # Desarrollo Parcial  
-# A. 
+# A. gaa, gcmsg, ggp  
+A continuación se muestra las capturas de los comandos gaa, gcmsg, ggp  
+  
 
