@@ -13,7 +13,7 @@ Para la instalación de zsh se utilizó el comando
 ```console
 operativos@debian:/# apt-get install zsh
 ```
-![img_instalacion_zsh]()
+![](imagenes/instalacion-zsh.png)
 
 
 ## Instalación de plugins de oh-my-zsh
@@ -22,4 +22,4 @@ Para realizar la instalción de oh-my-zsh se utilizó el siguiente comando
 ```console
 operativos@debian:/# apt-get install zsh
 ```
-![img_instalacion_zsh]()
+![](imagenes/instalacion-oh-my-zsh.png)
