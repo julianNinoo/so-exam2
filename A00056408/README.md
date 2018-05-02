@@ -6,5 +6,5 @@
 # Desarrollo Parcial  
 # A. gaa, gcmsg, ggp  
 A continuación se muestra las capturas de los comandos gaa, gcmsg, ggp  
-
+  
 
