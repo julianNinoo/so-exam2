@@ -4,5 +4,5 @@
 ## Tema: Segundo parcial SO
 ## Correo: james.montealegre@correo.icesi.edu.co
 
-##3. 
+## 3.  
 ![](file/1.jpg)  
