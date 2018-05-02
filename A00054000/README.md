@@ -36,4 +36,4 @@ A continuación, se presentan dos ejemplos de autocompletado utilizando dos comm
 
 Utilizando asccinema para grabar la terminal de fedora, se crea el siguiente video en el cual se ilustra el funcionamiento del modo vi para la navegación a través del buffer.
 
-[a link](https://asciinema.org/a/179430)
+[Link video en asciinema](https://asciinema.org/a/179430)
