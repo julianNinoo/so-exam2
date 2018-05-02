@@ -14,4 +14,4 @@
 ![](file/5.jpg)  
 ## 6.  
 ![](file/6.jpg)  
-![](file/7.jpg)
+![](file/7.png)
