@@ -23,3 +23,6 @@ Para realizar la instalción de oh-my-zsh se utilizó el siguiente comando
 operativos@debian:/# apt-get install zsh
 ```
 ![](imagenes/instalacion-oh-my-zsh.png)
+
+## Configuración token
+
