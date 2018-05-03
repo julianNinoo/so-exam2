@@ -11,10 +11,8 @@
   - [1. Instalación de zsh]
   - [2. Instalación del plugin zsh-autosuggestions]
   - [3. Instalación y configuración de tmux]
-  - [4. Instalación de git y tig]
-  - [5. Exportación de la máquina virtual]
-  - [6. Importación de la máquina virtual]
-  - [7. Cuadro comparativo entre Debian 9 y CentOS7]
+  - [4. Creación de una sesión con tmux]
+  - [5. Aplicación.py]
  
 # Solución Parcial 2
 
@@ -37,7 +35,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 **4.** Para habilitar el plugin vi-mode se deben realizar los comandos: 
 
 ```
-vi ~/.zshrc
+nano ~/.zshrc
 ```
 
 ```
@@ -75,7 +73,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 **2.** Adicionar el plugin a la lista de plugins activos con los comandos
 
 ```
-vi ~/.zshrc
+nano ~/.zshrc
 ```
 
 ```
@@ -89,7 +87,7 @@ $ source ~/.zshrc
 **3.** Para cambiar el color de resaltado de las coincidencias a amarillo, se deben ejecutar los comandos, que en mi caso son
 
 ```
-vi $ZSH_CUSTOM/davidcobo.zsh
+nano $ZSH_CUSTOM/davidcobo.zsh
 ```
 
 ```
@@ -110,7 +108,7 @@ $ source ~/.zshrc
 
 **1.** Se debe ejecutar el comando ```sudo apt-get install tmux -y```
 
-**2.** Para realizar una configuración personalizada se debe ejecutar una acción a través de un archivo de configuración llamado .tmux.conf. Se digita el comando ```vi ~/.tmux.conf```
+**2.** Para realizar una configuración personalizada se debe ejecutar una acción a través de un archivo de configuración llamado .tmux.conf. Se digita el comando ``` nano ~/.tmux.conf ```
 
 **3.** Una vez dentro del archivo se agrega la siguiente configuración:
 
@@ -140,4 +138,36 @@ bind-key -Tcopy-mode-vi v send -X begin-selection
 
 ##  4. Creación de una sesión con tmux 
 
-**1.** 
+**1.** Se debe ejecutar el siguiente comando ``` tmux new-session -s so-exam2 ```
+
+**2.** Una vez creada la sesión, para dividir la pantalla en cuatro cuadrantes, se deben combinar las siguientes teclas
+
+```
+Ctrl + a + %   -> Divide la pantalla verticalmente
+```
+
+```
+Ctrl + a + "   -> Divide la pantalla horizontalmente
+```
+
+**3.** En el primer cuadrante ejecutar el comando ``` top ```
+
+**4.** Para ejecutar el script de python courses.py es necesario tener importado el modulo Flask. En caso de no tenerlo instalado los siguientes enlaces lo orientará en la instalación
+
+https://github.com/ICESI/so-microservices-python/tree/master/01_virtualenvs
+
+https://github.com/ICESI/so-microservices-python/tree/master/02_intro_flask
+
+Salida en el navegador al ejecutar el programa courses.py
+
+![](imagenes/d7.jpg)
+
+**5.** Para realizar las peticiones por medio de curl con la salida formateada con jq, debe asegurarse de tener instalado jq. En caso de no tenerlo puede instalarlo con el siguiente comando
+
+```
+sudo apt-get install jq
+```
+
+**6.** Finalmente, ejecutar el comando ``` telnet towel.blinkenlights.nl ```
+
+**7.**
