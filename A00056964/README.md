@@ -17,3 +17,6 @@ comando 2:
 ![](Images/punto4_2.png)
 
 Punto 5:  
+Para éste punto se usó la herramienta tmux, se crearón los 4 cuadreantes en donde en el superior izquierdo se encuentra la salida del comando "top", el el superior derecho se muestra la ejecucion del script courses.py, el el inferior izquierdo se visualiza la salida de talnet y en el inferior derecho se visualiza la salida de curl.
+
+![](Images/punto5.png)
