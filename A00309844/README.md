@@ -108,4 +108,36 @@ $ source ~/.zshrc
 
 ##  3. Instalación y configuración de tmux
 
+**1.** Se debe ejecutar el comando ```sudo apt-get install tmux -y```
+
+**2.** Para realizar una configuración personalizada se debe ejecutar una acción a través de un archivo de configuración llamado .tmux.conf. Se digita el comando ```vi ~/.tmux.conf```
+
+**3.** Una vez dentro del archivo se agrega la siguiente configuración:
+
+```
+set-option -g prefix C-a
+unbind-key C-a
+bind-key C-a send-prefix
+set -g base-index 1
+
+# Easy config reload
+bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
+
+# vi is good
+setw -g mode-keys vi
+
+# Setup 'v' to begin selection as in Vim
+bind-key -Tcopy-mode-vi v send -X begin-selection
+```
+
+**4.** Modo vi para la navegación y modo de copia visual a portapapeles
+
+![](imagenes/d4.jpg)
+
+![](imagenes/d5.jpg)
+
+![](imagenes/d6.jpg)
+
+##  4. Creación de una sesión con tmux 
+
 **1.** 
