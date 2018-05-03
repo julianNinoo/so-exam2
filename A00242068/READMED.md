@@ -14,3 +14,4 @@
 comando: ``# apt-get install zsh``
 
 comando: 
+![](Imagenes/oh-my-szh.png)
