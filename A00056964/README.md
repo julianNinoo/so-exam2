@@ -20,3 +20,11 @@ Punto 5:
 Para éste punto se usó la herramienta tmux, se crearón los 4 cuadreantes en donde en el superior izquierdo se encuentra la salida del comando "top", el el superior derecho se muestra la ejecucion del script courses.py, el el inferior izquierdo se visualiza la salida de talnet y en el inferior derecho se visualiza la salida de curl.
 
 ![](Images/punto5.png)
+
+Punto 6:  
+El programa en python se encuentra en la carpeta Scrip y acontinuación se muestra la configuración del archivo de crontab:
+![](Images/punto6_1.png)
+
+En este caso se ha programado crontab para que se ejecute cada minuto, en Slack podemos ver que en efecto se publica en el canal cada 1 minuto:
+
+![](Images/punto6_2.png)
