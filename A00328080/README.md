@@ -18,9 +18,10 @@ Este Segundo Examen Parcial consiste en el empleo de comandos de herramientas y 
 Las asignaciones como nombre, código, correo y materia han sido agregados. 
 
 **Punto 2**  
-Punto relacionado con la ortografía  
-
-
+Punto relacionado con la ortografía.  
+**Punto 3**  
+Se instala zsh y oh-my-szh, que tiene varias abreviaciones para diferentes comandos de git.
+![](Imagenes/Imagen1.png) 
 
 
 
