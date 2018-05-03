@@ -44,5 +44,17 @@ setw -g mode-keys vi
 *# Setup 'v' to begin selection as in Vim*  
 bind-key -Tcopy-mode-vi v send -X begin-selection  
 
+Luego de haber instalado TMux se creo la sesion con nombre so-exam2.  
+Se procedío a dividir la pantalla en cuatro cuadrantes, en las cuales se muestra lo siguiente:  
+1. Salida del comando top  
+2. Salida de la ejecución del script de python courses.py 
+3. Peticiones por medio de curl a cada endpoint. Salida formateada con jq
+4. Salida de la ejecución de telnet towel.blinkenlights.nl
 
-----<<<AQUI VA LA PANTALLA DE LAS 4 FUNCIONALIDADES>>>----
+La captura de la ejecución de las funcionalidades al tiempo es la siguiente  
+ ----<<<AQUI VA LA PANTALLA DE LAS 4 FUNCIONALIDADES>>>----
+
+
+
+*Punto 6 obtener los datos de procesador, memoria y disco disponibles*
+
