@@ -42,13 +42,13 @@ Moverse y seleccionar comandos
 Comando Top
 ![](Imagenes/Imagen6.png)  
 En salida de ejecución de courses.py 
-[](Imagenes/Imagen7.png)  
-[](Imagenes/Imagen8.png)  
-[](Imagenes/Imagen9.png)  
-[](Imagenes/Imagen10.png)  
+![](Imagenes/Imagen7.png)  
+![](Imagenes/Imagen8.png)  
+![](Imagenes/Imagen9.png)  
+![](Imagenes/Imagen10.png)  
 
 **Punto 7**  
 Pruebas de slack del codigo de Python  
-[](Imagenes/Imagen11.png)  
-[](Imagenes/Imagen12.png)
+![](Imagenes/Imagen11.png)  
+![](Imagenes/Imagen12.png)
 
