@@ -22,7 +22,7 @@ A continuación, se muestra el auto completado de dos comandos usando el plugin 
   
 ![alt text](https://github.com/leonleo997/so-exam2/blob/master/A00056408/images/tmuxconf.PNG)   
 
-  A continuación, se observa el archivo .tmux.conf. Este archivo posee la configuración para: Cambiar la combinación de teclas de ´Ctrl + b´ a ´Ctrl + a´, Recargar el archivo de configuración mediante la combinación de teclas ´Ctrl + a + Shift + r´, para navegar a través del flujo usamos la combinación de teclas ´Ctrl + a + [´, Seleccionamos usando ´Espacio´, copiamso la selección usando ´Enter´ y pegamos usando ´Ctrl + a + ]´.  
+  A continuación, se observa el archivo .tmux.conf. Este archivo posee la configuración para: Cambiar la combinación de teclas de `Ctrl + b` a `Ctrl + a`, Recargar el archivo de configuración mediante la combinación de teclas `Ctrl + a + Shift + r`, para navegar a través del flujo usamos la combinación de teclas `Ctrl + a + [`, Seleccionamos usando `Espacio`, copiamso la selección usando `Enter` y pegamos usando `Ctrl + a + ]`.  
 
 
 ![alt text](https://github.com/leonleo997/so-exam2/blob/master/A00056408/images/reload.PNG)  
@@ -34,7 +34,7 @@ A continuación, se muestra el auto completado de dos comandos usando el plugin 
 
 ## D. Cuadrantes tmux  
 
-En esta sección dividimos la pantalla verticalmente usando ´Ctrl + a + "´, y horizontalmente usando ´Ctrl + a + %´ para tenerla dividida en 4 cuadrantes.  
+En esta sección dividimos la pantalla verticalmente usando `Ctrl + a + "`, y horizontalmente usando `Ctrl + a + %` para tenerla dividida en 4 cuadrantes.  
 En cada cuadrante ejecutamos los siguientes comandos:
 
 En el primer cuadrante escribimos:
@@ -66,7 +66,7 @@ Instalamos crontab usando el siguiente comando
 ```console
 operativos@Debian:~$ sudo apt-get install cron
 ```
-Modificamos el archivo usando el comando ´~ crontab -e´ y adicionamos la línea que se ve al final de la siguiente imagen:  
+Modificamos el archivo usando el comando `~ crontab -e` y adicionamos la línea que se ve al final de la siguiente imagen:  
 
 ![alt text](https://github.com/leonleo997/so-exam2/blob/master/A00056408/images/crontab_config.PNG)  
 
