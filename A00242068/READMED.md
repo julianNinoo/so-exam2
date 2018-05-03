@@ -8,5 +8,9 @@
 
 ### 3 Instalación y configuración de zsh y git  
 -Instalación de git usando el siguiente comando: ``# apt-get install git`` 
+
 -Instalación de zsh y plugin Oh-my-zsh 
+
 comando: ``# apt-get install zsh``
+
+comando: 
