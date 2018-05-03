@@ -40,7 +40,7 @@ Utilizando asccinema para grabar la terminal de fedora, se crea el siguiente vid
 
 ### CREACIÓN DE SESIÓN EN TMUX DE NOMBRE so-exam2
 
-En la siguiente imágen se puede observar una sesión en tmux dividida en cuatro secciones. En la priemra sección se observa el resultado del comando top; en la segunda se ve la saluda del comando telnet towel.blinkenlights.nl, sin embargo no logra conectarse al host para obtener el resultado; en la tercera se visualiza la salida de la ejecución del script courses.py; finalmente, en el último cuadrante se ve la salida del comando curl http://localhost:5000/courses | jq '.':
+En la siguiente imágen se puede observar una sesión en tmux dividida en cuatro secciones. En la priemra sección se observa el resultado del comando top; en la segunda se ve la salida del comando telnet towel.blinkenlights.nl; en la tercera se visualiza la salida de la ejecución del script courses.py; finalmente, en el último cuadrante se ve la salida del comando curl http://localhost:5000/courses | jq '.':
 
 ![](imgs/session_tmux.PNG)
 
