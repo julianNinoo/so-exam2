@@ -42,7 +42,9 @@ bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
 setw -g mode-keys vi  
 
 *# Setup 'v' to begin selection as in Vim*  
-bind-key -Tcopy-mode-vi v send -X begin-selection  
+bind-key -Tcopy-mode-vi v send -X begin-selection   
+
+---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---
 
 Luego de haber instalado TMux se creo la sesion con nombre so-exam2.  
 Se procedío a dividir la pantalla en cuatro cuadrantes, en las cuales se muestra lo siguiente:  
@@ -55,6 +57,25 @@ La captura de la ejecución de las funcionalidades al tiempo es la siguiente
  ----<<<AQUI VA LA PANTALLA DE LAS 4 FUNCIONALIDADES>>>----
 
 
+---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---  
 
-*Punto 6 obtener los datos de procesador, memoria y disco disponibles*
+*Punto 6 obtener los datos de procesador, memoria y disco disponibles* 
+Se hace la instalacion del python-pip para luego proceder a realizar la instalación del pyCLI, psutil,y del slack client de python, para ello se ejecutan los siguientes comandos:  
+
+pip install pyCLI  
+pip install psutil==4.3.0  
+pip install slackclient  
+
+Luego se procede a crear un archivo de extencion python ".py" el cual fue llamado estadoPC.py y aqui vamos a importar lo que acabamos de instalar y adicional a ello vamos a llamar los metodos existentes de la libreria psutil que se encuentran en el siguiente link: https://pypi.python.org/pypi/psutil/4.3.0 aquí estan los comandos utilizados para obtener los datos del procesador, memoria y disco los cuales  
+
+Ejecutamos la siguiente linea para entrar a la configuración del crontab  
+crontab -e   
+Aqui agregamos al final la linea que indica la frecuencia en minutos en que se va a actualizar los datos del procesador, memoria y disco
+
+*/1 * * * * /home/chimbi/so-exam2/A00059956/estadoPC/estadoPC.py
+
+Con  esta configuración terminada procedemos a ejecutar el archivo de python con el comando  
+python estadoPC.py   
+Con la ejecución de el archivo python se envia al canal de Slack creado cada minuto los datos del procesador, memoria y disco. Las imagenes que muestran el codigo del archivo estadoPC.py y el resultado de cada minuto obteniendo los datos desde el slack se ven acontinuación:
+
 
