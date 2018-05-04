@@ -15,4 +15,5 @@ Realizar segundo parcial del curso Sistemas Operativos Universidad Icesi
 
 **3 Punto** 
 
+![imagen](./imagenes/punto3_ins_zsh)
 
