@@ -8,11 +8,11 @@
 
 **Tabla de Contenido**
 
-  - [1. Instalación de zsh](#1.-Instalación-de-zsh)
-  - [2. Instalación del plugin zsh-autosuggestions](#2.-Instalación-del-plugin-zsh-autosuggestions)
-  - [3. Instalación y configuración de tmux](#3.-Instalación-y-configuración-de-tmux)
-  - [4. Creación de una sesión con tmux](#4.-Creación-de-una-sesión-con-tmux)
-  - [5. Aplicación.py](#5.-Aplicación.py)
+  - [1. Instalación de zsh](#1-instalación-de-zsh)
+  - [2. Instalación del plugin zsh-autosuggestions](#2-instalación-del-plugin-zsh-autosuggestions)
+  - [3. Instalación y configuración de tmux](#3-instalación-y-configuración-de-tmux)
+  - [4. Creación de una sesión con tmux](#4-creación-de-una-sesión-con-tmux)
+  - [5. Aplicación.py](#5-aplicaciónpy)
  
 # Solución Parcial 2
 
