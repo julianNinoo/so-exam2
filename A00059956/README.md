@@ -66,10 +66,11 @@ Se procedío a dividir la pantalla en cuatro cuadrantes, en las cuales se muestr
 4. Salida de la ejecución de telnet towel.blinkenlights.nl
 
 LaS capturaS de la ejecución de las funcionalidades al tiempo son las siguientes   
-![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956//itelnet(1).png)
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956//itelnet1.png)  
 
-![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956//itelnet(2).png)
-![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956/itelnet(3).png)
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956//itelnet2.png)  
+
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956/itelnet3.png)
 
 
 ---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---  
