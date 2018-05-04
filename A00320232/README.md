@@ -151,3 +151,11 @@ pip install psutil==4.3.0
 ```console
 pip install slackclient
 ```
+
+Debemos escribir la aplicación que ejecutará crontab para el cual utilizaremos el siguiente código:
+
+
+Después debemos comfigurar  el crontab que nos permitirá crear las tareas programadas utilizando el comando
+```console
+crontab -e
+```
