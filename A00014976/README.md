@@ -32,6 +32,8 @@ Ejecución de tmux: ~ tmux
 ![](file/8.png)  
 
 ## 7.  ----------------------------------------------------------------------  
+Por cuestión de tiempo la aplicación se ejecuta cada minuto en el canal de Slack con ayuda del Crontab  
+
 
 ![](file/10.png)
 ![](file/11.png)
