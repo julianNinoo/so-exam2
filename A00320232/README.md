@@ -130,3 +130,24 @@ Luego se ejecutaron las siguiente lista de instrucciones en cada uno de los cudr
 3. Peticiones por medio de curl a cada endpoint. Salida formateada con jq
 4. Salida de la ejecución de telnet towel.blinkenlights.nl
 
+![](imagenes/pantallas_dividida.png)
+
+
+## Construcción de aplicación 
+
+Se pide construir una aplicación que se debe ejecutar en background cada cierto tiempo, se debe ejecutar como una aplicación de linea de comandos, debe obtener los valores de procesador, memoria y disco disponibles y debe publicar en un canal de slack los valores de porcentaje de cpu, memoria y disco disponibles. Para esto, es necesario instalar las siguientes librerias:
+
+1. pyCLI usando el comando
+```console
+pip install pyCLI
+```
+
+2. psutil 4.3.0
+```console
+pip install psutil==4.3.0
+```
+
+3. python-slackclient
+```console
+pip install slackclient
+```
