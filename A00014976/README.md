@@ -19,6 +19,8 @@ seguido: source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh.  Para cambia
 ![](file/3.jpg)  
 
 ## 5.  ----------------------------------------------------------------------  
+Instalación tmux: ~ apt-get install tmux -y:
+Ejecución de tmux: ~ tmux  
 
 ![](file/4.jpg)  
 ![](file/5.jpg)   
