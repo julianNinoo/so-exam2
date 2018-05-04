@@ -72,3 +72,61 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 Y ya podemos comprobar que los cambios han surtido efecto.
 
 ![](imagenes/cambio_color.png)
+
+## Uso e instalación de tmux
+
+Para realizar la instalación de tmux se utilizó el siguiente comando
+```console
+apt-get install tmux -y
+```
+
+Luego de la instalación ejecutamos el comando
+```console
+tmux
+```
+
+Esto para abrir el tmux en nustra terminal. Hecho esto, el siguiente paso a seguir es configurar tmux. Para realizar esto debemos editar el archivo tmux.conf ejecutando el siguiente comando
+```console
+vim ~/.tmux.conf
+```
+Cuando abra el editor de texto, debemos copiar las siguientes instrucciones dentro del archivo:
+```
+# use C-a, since it's on the home row and easier to hit than C-b
+set-option -g prefix C-a
+unbind-key C-a
+bind-key C-a send-prefix
+set -g base-index 1
+
+# Easy config reload
+bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
+
+# vi is good
+setw -g mode-keys vi
+
+# Setup 'v' to begin selection as in Vim
+bind-key -Tcopy-mode-vi v send -X begin-selection
+```
+
+Guardamos el archivo y salimos del editor. Luego presionamos la configuración de teclas ctrl+b y luego r para que tmux realice los cambios necesarios . Una vez hecho esto, ya tendremos habilitado el modo vi para navegar a través del buffer, se habrán cambiado la combinación de teclas ctrl+b por ctrl+a y y tedremos habilitado la opción de reload para tmux.
+
+![](imagenes/suggestions1.png)
+
+![](imagenes/suggestions2.png)
+
+![](imagenes/suggestions3.png)
+
+
+## Salidas en los cuatro cuadrantes de tmux
+
+Se creó una sesión en tmux con el comando
+```console
+tmux new-session -s so-exam2
+```
+
+Luego se ejecutaron las siguiente lista de instrucciones en cada uno de los cudrantes respectivamente:
+
+1. Salida del comando top
+2. Salida de la ejecución del script de python courses.py
+3. Peticiones por medio de curl a cada endpoint. Salida formateada con jq
+4. Salida de la ejecución de telnet towel.blinkenlights.nl
+
