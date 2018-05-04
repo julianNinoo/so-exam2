@@ -34,13 +34,33 @@ Para realizar la instalacion de oh-my-zsh es necesario instalar **curl** para po
 
 ![](img/oh-my-zsh-todos-usuarios.png)
 
-4) Creamos un token para nuestro repositorio de git siguiendo el tutorial:  [https://github.com/ICESI/so-git/tree/master/00_github_intro](https://github.com/ICESI/so-git/tree/master/00_github_intro). Siguiendo el tutorial, primero clonamos el repositorio con  el comando ```git clone```, después configuramos el repositorio con el token generado con el comando ```git config remote.origin.url https://xxxxxxxxxxxxxxxxxxxx@github.com/DonMiguelin/so-exam2.git``` en  XXXXXXXXXXXX ponemos el toquen que generamos.
+4) Creamos un token para nuestro repositorio de git siguiendo el tutorial:  [https://github.com/ICESI/so-git/tree/master/00_github_intro](https://github.com/ICESI/so-git/tree/master/00_github_intro). Siguiendo el tutorial, primero clonamos el repositorio con  el comando ```git clone```, después configuramos el repositorio con el token generado con el comando ```git config remote.origin.url https://xxxxxxxxxxxxxxxxxxxx@github.com/DonMiguelin/so-exam2.git``` en  XXXXXXXXXXXX ponemos el token que generamos.
 
 5) Para realizar el literal 4, fue necesario crear un directorio en el repositorio clonado con el comando ```mkdir``` y ponerle como nombre **codigo_punto6**, en este directorio cree un archivo **README.md** y lo subi a mi repositorio ejecutando los comandos ```gaa``` que es git add all, ```gcmsg``` git commit -m y ```ggp``` git push origin.
 
 ![](img/tokenmascomandos.png)
 
 
-## instalar los plugins necesarios de oh-my-zsh
+## Instalar plugins de oh-my-zsh
+
+1) El plugin zsh-autosuggestions se utiliza para autocompletar. Para insertar este plugin es necesario ejecutar el comando ```nano ~/.zshrc``` para editar el archivo **zshrc**. una vez ahi buscamos la linea donde se ingresan los plugins y ahi ponemos **git vi-mode zsh-autosuggestions** como se muestra en la imagen:
+
+![](img/editarAutosuggesstions.png)
+
+Después ejecutamos el comando ```source ~/.zshrc``` para ver los cambios
+
+2) Luego para modificar el valor para subrayar las sugerencias con un color diferente, en este caso amarillo, ejecutamos el comando ```nano $ZSH_CUSTOM/crisosotre.zsh``` y se creara un archivo .zsh con el nombre que le dimos en el comando. una vez ahi en el modo nano de edición ingresamos lo siguiente: **export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"** cambiando el valor de fg=1 por fg=yellow para que las sugerencias salgan en amarillo. Después ejecutamos el comando ```source ~/.zshrc``` para ver los cambios como se muestra en las siguientes imagenes: 
+
+![](img/cambioColorAmarillo.png)
+
+![](img/cambioColorAmarillo2.png)
+
+## Instalación y configuración de tmux
+
+
+
+
+
+
 
 
