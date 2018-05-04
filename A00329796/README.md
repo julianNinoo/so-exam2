@@ -56,6 +56,7 @@ Imagen
 ![imagen](./imagenes/punto6_comandos.png) 
 
 **7 punto**
+
 ![imagen](./imagenes/punto7.png) 
 
 ![imagen](./imagenes/punto7_slack.png) 
