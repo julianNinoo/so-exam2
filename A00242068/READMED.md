@@ -69,4 +69,23 @@ evidenciando en los autocompletados que se resaltan de color amarillo
 
 ### 6 Sesion tmux de nombre so-exam2 
 
+Se crea la sesion de nombre so-exam2
+
+``tmux new-session -s so-exam2``
+
+En está session se divide en 4 terminales donde se mostrara:
+
+-Salida del comando top
+
+-Salida de la ejecución del script de python courses.py
+
+-Peticiones por medio de curl a cada endpoint. Salida formateada con jq.
+
+-Salida de la ejecución de telnet towel.blinkenlights.nl
+
+![](Imagenes/pantalla4.png)
+
+### 7 Background y resultados en slack
+
+
 
