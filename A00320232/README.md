@@ -154,8 +154,26 @@ pip install slackclient
 
 Debemos escribir la aplicación que ejecutará crontab para el cual utilizaremos el siguiente código:
 
+![](imagenes/codigo_app.png)
 
 Después debemos comfigurar  el crontab que nos permitirá crear las tareas programadas utilizando el comando
 ```console
 crontab -e
 ```
+Y luego debemos anexar la siguiente instruccion para que la aplicación se ejecute cada 3 minutos.
+```
+*/3 * * * * /usr/bin/python /home/operativos/so-exam2/A00320232/codigo_punto6/qpp.py
+```
+
+Y debe quedar como se muestra en la imagen
+
+![](imagenes/config_crontabApp.png)
+
+Posteriormente debemos ejecutar la aplicación con el comando
+```console
+python app.py
+```
+
+Y ya deberiamos poder ver los mensajes en el canal de slack cada 3 minutos.
+
+![](imagenes/slack.png)
