@@ -7,19 +7,23 @@
 Se hace la instalacion de oh-my-Zsh  y tambien el de Curl con los siguientes comandos  
 		"apt-get install zsh"  
 		"apt-get install curl"  
-    Luego corremos la siguiente linea de codigo  
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956/zsh1.png) 
+
+Luego corremos la siguiente linea de codigo  
 		"sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "  
 Procedemos a realizar la clonacion del repositorio del examen con nombre SO-exam2 y desde el git ingresamos al prefil, configuracion avanzada, y seleccionamos crear token para poder utilizarlo antes del @ del siguiente codigo:  
-git config remote.origin.url "https://"TOKEN"@github.com/JnCV17/so-exam2.git"
+git config remote.origin.url "https://"TOKEN"@github.com/chimbi18/so-exam2.git"
 Luego se procede a realizar la configuracion para poder utilizar las abreviaciones de git como  
 ga, gaa  
 Luego se realizo la ejecucion la siguiente linea para poder instalar el plugin que nos permite la funcionalidad del autocompletado, el codigo que se uso fue:  
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956/zsh3.png) 
 Luego para poder resaltar en amarillo el autocompletado se utuilizo el comando que sigue:  
  vi ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh  
   export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='yellow'
 luego se adiciona a la lista de plugins la configuracion de los plugins para que funcione, se realiza de esta forma :   
 plugins=(git vi-mode zsh-autosuggestions)  
+![alt text](https://github.com/chimbi18/so-exam2/blob/master/A00059956/zsh2.png) 
 
 ---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---o---0---  
 
