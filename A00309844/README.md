@@ -176,4 +176,81 @@ sudo apt-get install jq
 
 ##  5. Aplicación.py
 
-**1.** 
+**1.** Para hacer la aplicación se deben tener las siguientes librerias, que se instalan con los comandos
+
+```
+pip install slackclient   -> Slack client
+```
+
+```
+pip install psutil  -> psutil
+```
+
+```
+pip install slackclient   -> Slack client
+```
+
+Para más información puede visitar los siguientes enlaces
+
+https://github.com/slackapi/python-slackclient
+
+https://pythonhosted.org/pyCLI/
+
+https://pypi.org/project/psutil/4.3.0/
+
+**2.** Una vez se han completado todas las instalaciones, se debe crear el script de python con nombre codigo_punto6.py. Cabe aclarar que me basé en la información de los enlaces anteriores. El script es el siguiente
+
+```
+from slackclient import SlackClient
+import psutil
+import cli.app
+
+@cli.app.CommandLineApp
+def slackMessage(app):
+
+        slack_token = 'xoxb-359517053831-KciUfv3LezJMxAdwb8tBb7WW'
+        sc = SlackClient(slack_token)
+        sc.api_call(
+          "chat.postMessage",
+          channel="CAJHR8E6R",
+          text="Reporte de los valores de disponibilidad de memoria RAM, Disco Duro y CPU: \n  Memoria Disponible: "+str(100-psutil.virtual_memory()[2])+"% \n Porcentaje de uso del Disco Duro: "+str(100-psutil.disk_usage('/')[3])+"% \n Porcentaje de uso de la CPU: "+str(psutil.cpu_percent())+"% "
+        )
+if __name__ == "__main__":
+    slackMessage.run()
+```
+
+**3.** Si todo ha salido bien. Se prueba con el comando
+
+```
+python codigo_punto6.py
+```
+ 
+**4.** Cabe anotar que el canal de Slack al que se va a enviar el reporte debe ser propio. En caso contrario no se enviará el reporte.
+
+**5.** Al ejecutar el script, se va a ver automaticamente que el reporte fue enviado al canal. Para programar la ejecución en un intervalo de tiempo del script se utiliza el comando
+
+```
+crontab -e
+```
+
+**6.** Incluir al final del archivo de texto la configuración, como se muestra en la imagen
+
+![](imagenes/d9.jpg)
+
+**7.** Finalmente, en la siguiente imagen se ve que la aplicación se ejecuta cada 5 minutos mostrando el reporte de uso de Memoria, Disco Duro y CPU
+
+![](imagenes/d10.jpg)
+
+## Referencias  
+
+https://github.com/robbyrussell/oh-my-zsh
+
+https://github.com/zsh-users/zsh-autosuggestions
+
+https://pythonhosted.org/pyCLI/
+
+https://pypi.org/project/psutil/4.3.0/
+
+https://github.com/slackapi/python-slackclient
+
+https://github.com/ICESI/so-git/tree/master/00_github_intro
