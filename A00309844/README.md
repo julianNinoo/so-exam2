@@ -8,11 +8,11 @@
 
 **Tabla de Contenido**
 
-  - [1. Instalación de zsh]
-  - [2. Instalación del plugin zsh-autosuggestions]
-  - [3. Instalación y configuración de tmux]
-  - [4. Creación de una sesión con tmux]
-  - [5. Aplicación.py]
+  - [1. Instalación de zsh](#1.-Instalación-de-zsh)
+  - [2. Instalación del plugin zsh-autosuggestions](#2.-Instalación-del-plugin-zsh-autosuggestions)
+  - [3. Instalación y configuración de tmux](#3.-Instalación-y-configuración-de-tmux)
+  - [4. Creación de una sesión con tmux](#4.-Creación-de-una-sesión-con-tmux)
+  - [5. Aplicación.py](#5.-Aplicación.py)
  
 # Solución Parcial 2
 
@@ -170,4 +170,10 @@ sudo apt-get install jq
 
 **6.** Finalmente, ejecutar el comando ``` telnet towel.blinkenlights.nl ```
 
-**7.**
+**7.** Aqui una imagen de los cuatro cuadrantes
+
+![](imagenes/d8.jpg)
+
+##  5. Aplicación.py
+
+**1.** 
