@@ -1,0 +1,34 @@
+ #!/usr/bin/env python
+import psutil
+import os
+import cli.app
+from slackclient import SlackClient
+@cli.app.CommandLineApp
+
+def ls(app):
+
+    slack_token = 'xoxp-358148839237-359060351751-357483004176-b4183ec588ce3d5d438c6d5e003f71cb' 
+    sc = SlackClient(slack_token)
+
+
+
+
+    cpu_percent = psutil.cpu_times_percent(interval=1, percpu=False)
+    swap_memory =  psutil.swap_memory()
+    disk_partitions = psutil.disk_partitions()
+    disk_usage = psutil.disk_usage('/')
+
+  
+ 
+    sc.api_call(
+     "chat.postMessage",
+     channel="CAK1SALB1",
+     text= "CPU TIMES PERCENT \n" + str(cpu_percent) + "\n SWAP MEMORY \n" + str(swap_memory) + "\n DISK PARTITIONS \n" + str(disk_partitions) + "\n DISK USAGE \n" + str(disk_usage) 
+    )
+
+    
+
+
+
+if __name__ == "__main__":
+    ls.run()
