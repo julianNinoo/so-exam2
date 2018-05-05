@@ -10,6 +10,42 @@
 
 ___________________________
 
+Paso 0:
+Instalar las siguientes librías:
+
+```
+apt-get install pip
+```
+
+```
+apt-get install gcc python-dev python-pip
+```
+
+```
+apt-get install curl
+```
+
+```
+pip install flask
+```
+
+```
+pip install psutil
+```
+
+```
+pip install pyCLI
+```
+
+y por último 
+
+```
+pip install slackclient
+```
+
+El resto de las librerías se irán instalando a medida que avanza el tutuorial.
+
+
 1. Instalación del git y el zsh
  * Para la instalación tanto de git como zsh con los siguientes comandos:
 
@@ -46,7 +82,7 @@ Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el sig
 
 _____________________________
 
-4. Instalación y configuración de:
+### 4. Instalación y configuración de:
 
  * zsh-autosuggestion:
 
@@ -80,7 +116,7 @@ Pantallas con ejemplos:
 
 ________________________
 
-3. Instalación y configuración del tmux
+### 3. Instalación y configuración del tmux
 
  * Instalar tmux:
 
@@ -142,4 +178,94 @@ Pantallas de ejemplos
 
 ![](imagenes/resultado.png)
 
+### 6. Cree una sesion de nombre so-exam2. Divide la pantalla en cuatro cuadrantes y en cada cuadrante muestre lo siguiente (20%):
 
+Para crear una sesión se debe digitar el siguiente comando `
+```
+ tmux new-session -s so-exam2
+```
+
+Para dividir las pantallas en vertical: CTRL+a and %
+Para dividir las pantallas en horizontal: CTRL+a and "
+
+
+Salida del comando top: Solo escribir top en la consola.
+
+Salida de la ejecución del script de python courses.py: Lo que se debe escribir es:
+
+```
+# courses.py
+from flask import Flask
+import json
+app = Flask(__name__)
+
+@app.route("/courses")
+def courses():
+    courses = {"courses": ["SO2018", "DS2018"]}
+    return json.dumps(courses), 200
+
+@app.route("/courses/SO2018/curriculum")
+def curriculum():
+    curriculum = {"curriculum": ["virtualization", "processes", "memory"]}
+    return json.dumps(curriculum), 200
+
+if __name__ == "__main__":
+    app.run('0.0.0.0')
+```
+
+para luego ejecutarlo con:
+```
+python courses.py
+```
+
+Peticiones por medio de curl a cada endpoint. Salida formateada con jq: Realizar peticiones con el siguiente comando
+```
+curl "http://0.0.0.0:5000/courses/SO2018/curriculum l jq '.'
+```
+
+Salida de la ejecución de: 
+```
+telnet towel.blinkenlights.nl
+```
+Incluya una captura de pantalla de los cuatro cuadrantes:
+
+![](imagenes/4pantallas.png)
+
+![](imagenes/4pantallasPeticiones2.png)
+
+![](imagenes/animation.png)
+
+![](imagenes/animation2.png)
+
+![](imagenes/animation3.png)
+
+### 7. API EN SLACK 
+
+Crear un archivo con extension .py en el repositorio, donde se puede ver el código en el siguiente link:
+*** URL: *** 
+
+No sobra aclarar que los paquetes que se instalaron en el paso 0 del tutorial serán de mucha utilidad en este punto.
+
+
+Para programar las tareas se ejecuta el comando 
+```
+crontab -e
+```
+
+Escribir la tarea: 
+En mi caso ca 5 minutos.
+
+![](imagenes/cada5Cronat.png)
+
+Luego, se debe correr el archivo .py con el siguiente comando:
+```
+python codigo_punto6.py
+```
+
+Respuesta:
+
+![](imagenes/cada5.png)
+
+Para otros tiempos aquí otros ejemplos:
+
+![](imagenes/tareas.png)
