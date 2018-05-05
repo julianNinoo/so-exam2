@@ -57,6 +57,35 @@ Después ejecutamos el comando ```source ~/.zshrc``` para ver los cambios
 
 ## Instalación y configuración de tmux
 
+Para instalar **tmux** se debe ejecutar el comando ```apt-get install tmux``` y esperamos a que se instale como sucede en la imagen.
+
+![](img/instalartmux.png)
+
+Luego debemos configurar el archivo tmux.conf editandolo con el comando ```nano ~/.tmux.conf``` y una vez en el editor debemos ingresar este script:
+
+```
+# use C-a, since it's on the home row and easier to hit than C-b
+set-option -g prefix C-a
+unbind-key C-a
+bind-key C-a send-prefix
+set -g base-index 1
+
+# Easy config reload
+bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
+
+# vi is good
+setw -g mode-keys vi
+
+# Setup 'v' to begin selection as in Vim
+bind-key -Tcopy-mode-vi v send -X begin-selection
+```
+![](img/tmuxconf.png)
+
+Con esto queda como prefijo la combinación de teclas **ctrl + a**, la recarga de la configuración con el **prefijo** y **R**, también queda activo el modo vi para la navegación a través del buffer (salida de la linea de comandos) y el modo de copia visual a portapapeles.
+
+
+
+
 
 
 
