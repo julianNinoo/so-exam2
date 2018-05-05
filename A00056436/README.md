@@ -125,7 +125,36 @@ Asi se debe ver la ejecución de todos los comandos hechos anteriormente:
 
 ![](img/punto6.png)
 
+## Aplicacion python con SlackClient para publicar en Slack
 
+Para crear esta aplicación es necesario que vamos hasta la carpeta **codigo_punto6** que creamos al principio, en esta carpeta guardaremos el codigo de la aplicación.
+
+ 1) tenemos que instalar PyPCLI, para esto ejecutamos el comando ```pip install pyCLI```, esto se tomó de la guía [https://pythonhosted.org/pyCLI/](https://pythonhosted.org/pyCLI/).
+ 
+ 2) Luego instalamos slackclient con el comando ```pip install slackclient```, esto se tomó de la guía [https://github.com/slackapi/python-slackclient](https://github.com/slackapi/python-slackclient)
+ 
+ 3) Por ultimo instalamos la libreria de python que necesitaremos para utilizar en nuestro algoritmo, con el fin de saber los valores de porcentaje de cpu, memoria y disco disponibles, ejecutamos ```pip install psutil==4.3.0```, esto se tomó de la guía [https://pypi.python.org/pypi/psutil/4.3.0](https://pypi.python.org/pypi/psutil/4.3.0).
+ 
+ Asi se deben ver las instalaciones:
+ 
+ ![](img/punto7-1.png)
+ 
+ ![](img/punto7-2.png)
+
+ ![](img/punto7-3.png)
+ 
+ Una vez hecho lo anterior, creamos un workspace en slack, en mi caso lo cree como Sistemas Operacionales y cree un canal llamado   #operativos al cual se enviaran mensajes cada 10 minutos reportando el estado de la máquina con los valores de porcentaje de cpu, memoria y disco disponibles. Adicional a esto, debemos crear un token de slack para poder utilizarlo en nuestro codigo, para esto nos vamos a la pagina [https://api.slack.com/custom-integrations/legacy-tokens](https://api.slack.com/custom-integrations/legacy-tokens) para crearlo.
+ 
+ Después en nuestro repositorio en la carpeta **codigo_punto6** creamos un archivo .py, en mi caso lo llamare codigo.py.
+ para esto ejecutamos el comando ```nano codigo.py``` y creamos nuestro programa python.
+ 
+ ![](img/algoritmoCorrecto1.png)
+ 
+ ![](img/algoritmoCorrecto2.png)
+ 
+ El código del programa python se encientra [aqui](codigo_punto6/codigo.py)
+ 
+ 
 
 
 
