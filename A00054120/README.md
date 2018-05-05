@@ -37,6 +37,10 @@ pip install psutil
 pip install pyCLI
 ```
 
+```
+apt-get install jq -y
+```
+
 y por último 
 
 ```
@@ -242,7 +246,7 @@ Incluya una captura de pantalla de los cuatro cuadrantes:
 ### 7. API EN SLACK 
 
 Crear un archivo con extension .py en el repositorio, donde se puede ver el código en el siguiente link:
-*** URL: *** 
+*** URL: *** https://github.com/Lauraitp/so-exam2/blob/laura-exam2/A00054120/codigo_punto6/codigo_punto6.py 
 
 No sobra aclarar que los paquetes que se instalaron en el paso 0 del tutorial serán de mucha utilidad en este punto.
 
