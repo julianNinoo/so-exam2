@@ -174,7 +174,7 @@ apt-get install asciinema -y
 
 ![](imagenes/installASCIINEMA.png)
 
-** URL: ** https://asciinema.org/a/4hdyW1tMOYlQHtKdvsgbs2bZu
+**URL:** https://asciinema.org/a/4hdyW1tMOYlQHtKdvsgbs2bZu
 
 Pantallas de ejemplos
 
@@ -245,8 +245,10 @@ Incluya una captura de pantalla de los cuatro cuadrantes:
 
 ### 7. API EN SLACK 
 
+a. Crear un workspace y luego un canal, el workspace se crea para solicitar el token porque se necesita en el código y también el nombre del canal en slack.
+
 Crear un archivo con extension .py en el repositorio, donde se puede ver el código en el siguiente link:
-*** URL: *** https://github.com/Lauraitp/so-exam2/blob/laura-exam2/A00054120/codigo_punto6/codigo_punto6.py 
+**URL:** https://github.com/Lauraitp/so-exam2/blob/laura-exam2/A00054120/codigo_punto6/codigo_punto6.py 
 
 No sobra aclarar que los paquetes que se instalaron en el paso 0 del tutorial serán de mucha utilidad en este punto.
 
