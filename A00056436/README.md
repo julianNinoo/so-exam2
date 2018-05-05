@@ -83,6 +83,41 @@ bind-key -Tcopy-mode-vi v send -X begin-selection
 
 Con esto queda como prefijo la combinación de teclas **ctrl + a**, la recarga de la configuración con el **prefijo** y **R**, también queda activo el modo vi para la navegación a través del buffer (salida de la linea de comandos) y el modo de copia visual a portapapeles.
 
+Ahora se puede utilizar la combinacion de teclas ```ctrl + a + teclas de dirección``` para desplazarse en la pantalla, se puede usar ```ctrl + a + "``` para dividir la pantalla horizontalmente, ```ctrl + a + %``` para dividir la pantalla verticalmente, ```ctrl+a + [``` para entrar en modo vi, ```Espacio``` para seleccionar lo que vamos a copiar, ```Enter``` para hacer la copia, ```q``` para salir del modo vi y ```ctrl + a + ]```
+
+
+## Sesión so-exam2 con tmux
+
+1) Para crear una sesión con tmux como so-exam2 es necesario ejecutar el comando  ```tmux new-session -s so-exam2```
+2) Una vez en sesión dividimos la pantalla en 4 partes
+3) En el primer cuadrante ejecutamos el comando ```top```
+4) En el segundo cuadrante debemos instalar python pip con el comando ```apt-get install python pip```, seguido de eso instalamos flask con ```pip install flask```, luego instalamos jq con el comado ```apt-get install jq```. Una vez hecho las instalaciones de los programas, creamos el archivo courses.py con el comando ```nano courses.py```.
+
+Una vez en courses.py ingresamos el siguiente codigo:
+
+```
+# courses.py
+from flask import Flask
+import json
+app = Flask(__name__)
+
+@app.route("/courses")
+def courses():
+    courses = {"courses": ["SO2018", "DS2018"]}
+    return json.dumps(courses), 200
+
+@app.route("/courses/SO2018/curriculum")
+def curriculum():
+    curriculum = {"curriculum": ["virtualization", "processes", "memory"]}
+    return json.dumps(curriculum), 200
+
+if __name__ == "__main__":
+    app.run('0.0.0.0')
+```
+Guardamos y ejecutamos el archivo courses.py con el comando ```python courses.py```.
+
+5) 
+
 
 
 
