@@ -125,7 +125,7 @@ Asi se debe ver la ejecución de todos los comandos hechos anteriormente:
 
 ![](img/punto6.png)
 
-## Aplicacion python con SlackClient para publicar en Slack
+## Aplicación python con SlackClient para publicar en Slack
 
 Para crear esta aplicación es necesario que vamos hasta la carpeta **codigo_punto6** que creamos al principio, en esta carpeta guardaremos el codigo de la aplicación.
 
