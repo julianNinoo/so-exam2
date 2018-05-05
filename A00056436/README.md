@@ -85,6 +85,7 @@ Con esto queda como prefijo la combinación de teclas **ctrl + a**, la recarga d
 
 Ahora se puede utilizar la combinacion de teclas ```ctrl + a + teclas de dirección``` para desplazarse en la pantalla, se puede usar ```ctrl + a + "``` para dividir la pantalla horizontalmente, ```ctrl + a + %``` para dividir la pantalla verticalmente, ```ctrl+a + [``` para entrar en modo vi, ```Espacio``` para seleccionar lo que vamos a copiar, ```Enter``` para hacer la copia, ```q``` para salir del modo vi y ```ctrl + a + ]```
 
+![](img/seleccion.png)
 
 ## Sesión so-exam2 con tmux
 
@@ -116,7 +117,15 @@ if __name__ == "__main__":
 ```
 Guardamos y ejecutamos el archivo courses.py con el comando ```python courses.py```.
 
-5) 
+5) En el cuadrante inferior derecho teniendo courses.py en ejecución, debemos ejecutar ```curl http://0.0.0.0:5000/courses | jq '.'``` y ```curl http://0.0.0.0:5000/courses/SO2018/curriculum | jq '.'```
+
+6) En el cuadrante restante ejecutamos el comando ```telnet towel.blinkenlights.nl``` en el que veremos un pequeño clip de star wars.
+
+Asi se debe ver la ejecución de todos los comandos hechos anteriormente: 
+
+![](img/punto6.png)
+
+
 
 
 
