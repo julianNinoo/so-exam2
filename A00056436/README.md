@@ -154,8 +154,25 @@ Para crear esta aplicación es necesario que vamos hasta la carpeta **codigo_pun
  
  El código del programa python se encientra [aqui](codigo_punto6/codigo.py)
  
+ Para ver que funciona correctamente ejecutamos el comando ```python codigo.py``` y vamos a nuestro canal de slack y vemos que funciona correctamente.
  
-
+ Ahora, tenemos que configurar el archivo crontab para que envie mensajes cada 10 minutos al canal de slack #operativos
+ 
+ 1) instalamos crontab con ```apt-get install cron```.
+ 
+ 2) ejecutamos ```crontab -e```.
+ 
+ 3) Adicionamos la ultima linea que se ve en la imagen al archivo y guardamos.
+ 
+ ![](img/crontab.png)
+ 
+ 4) ejecutamos ```crontab -l``` para que los cambios surtan efecto.
+ 
+ 5) Esperamos 10 minutos a que se realice la publicación del mensaje en el canal de slack. como se muestra en la imagen.
+ 
+ ![](img/slack.png)
+ 
+Listo, esto ha sido todo.
 
 
 
