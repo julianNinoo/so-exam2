@@ -33,7 +33,7 @@ Para éste punto se usó la herramienta tmux, se crearón los 4 cuadreantes en d
 ![](Images/punto5.png)
 
 # Punto 7:  
-El programa en python se encuentra en la carpeta Scrip y acontinuación se muestra la configuración del archivo de crontab:
+El programa en python se encuentra en la carpeta Script (https://github.com/andres-180/so-exam2/blob/master/A00056964/Script/codigo_punto6.py) y acontinuación se muestra la configuración del archivo de crontab:
 ![](Images/punto6_1.png)
 
 En este caso se ha programado crontab para que se ejecute cada minuto, en Slack podemos ver que en efecto se publica en el canal cada 1 minuto:
