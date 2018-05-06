@@ -6,7 +6,7 @@
 
 **Codigo:** A00054120
 
-**URL repositorio:** https://github.com/Lauraitp/so-exam2
+**URL repositorio:** https://github.com/Lauraitp/so-exam2/tree/laura-exam2/
 
 ___________________________
 
