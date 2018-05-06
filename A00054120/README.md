@@ -11,7 +11,7 @@
 ___________________________
 
 Paso 0:
-Instalar las siguientes librÌas:
+Instalar las siguientes libr√≠as:
 
 ```
 apt-get install pip
@@ -41,17 +41,17 @@ pip install pyCLI
 apt-get install jq -y
 ```
 
-y por ˙ltimo 
+y por √∫ltimo 
 
 ```
 pip install slackclient
 ```
 
-El resto de las librerÌas se ir·n instalando a medida que avanza el tutuorial.
+El resto de las librer√≠as se ir√°n instalando a medida que avanza el tutuorial.
 
 
-1. InstalaciÛn del git y el zsh
- * Para la instalaciÛn tanto de git como zsh con los siguientes comandos:
+1. Instalaci√≥n del git y el zsh
+ * Para la instalaci√≥n tanto de git como zsh con los siguientes comandos:
 
 ```
 apt-get install zsh -y
@@ -61,12 +61,12 @@ apt-get install zsh -y
 apt-get install git -y
 ```
 
-Luego de la instalaciÛn de ambos se descarga oh my zsh
+Luego de la instalaci√≥n de ambos se descarga oh my zsh
 
 ```
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 ```
- * ConfiguraciÛn del token.
+ * Configuraci√≥n del token.
 Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el siguiente comando:
 
 ![](imagenes/installGityClonar.png)
@@ -86,11 +86,11 @@ Para configurarlo, primero se debe clonar el repositorio y luego ejecutar el sig
 
 _____________________________
 
-### 4. InstalaciÛn y configuraciÛn de:
+### 4. Instalaci√≥n y configuraci√≥n de:
 
  * zsh-autosuggestion:
 
-Para la instalaciÛn de este plugin se debe seguir con los siguientes pasos:
+Para la instalaci√≥n de este plugin se debe seguir con los siguientes pasos:
 
 Clonar el repositorio
 ```
@@ -104,7 +104,7 @@ $ vi ~/.zshrc
 plugins=(git vi-mode zsh-autosuggestions)
 $ source ~/.zshrc
 ```
-Modificar el valor para las sugerencias, en mi caso ser· amarillo:
+Modificar el valor para las sugerencias, en mi caso ser√° amarillo:
 
 ```
 $ vi $ZSH_CUSTOM/dbarragan.zsh
@@ -120,7 +120,7 @@ Pantallas con ejemplos:
 
 ________________________
 
-### 3. InstalaciÛn y configuraciÛn del tmux
+### 3. Instalaci√≥n y configuraci√≥n del tmux
 
  * Instalar tmux:
 
@@ -184,7 +184,7 @@ Pantallas de ejemplos
 
 ### 6. Cree una sesion de nombre so-exam2. Divide la pantalla en cuatro cuadrantes y en cada cuadrante muestre lo siguiente (20%):
 
-Para crear una sesiÛn se debe digitar el siguiente comando `
+Para crear una sesi√≥n se debe digitar el siguiente comando `
 ```
  tmux new-session -s so-exam2
 ```
@@ -195,7 +195,7 @@ Para dividir las pantallas en horizontal: CTRL+a and "
 
 Salida del comando top: Solo escribir top en la consola.
 
-Salida de la ejecuciÛn del script de python courses.py: Lo que se debe escribir es:
+Salida de la ejecuci√≥n del script de python courses.py: Lo que se debe escribir es:
 
 ```
 # courses.py
@@ -224,10 +224,10 @@ python courses.py
 
 Peticiones por medio de curl a cada endpoint. Salida formateada con jq: Realizar peticiones con el siguiente comando
 ```
-curl "http://0.0.0.0:5000/courses/SO2018/curriculum l jq '.'
+curl "http://0.0.0.0:5000/courses/SO2018/curriculum | jq '.'
 ```
 
-Salida de la ejecuciÛn de: 
+Salida de la ejecuci√≥n de: 
 ```
 telnet towel.blinkenlights.nl
 ```
@@ -245,12 +245,12 @@ Incluya una captura de pantalla de los cuatro cuadrantes:
 
 ### 7. API EN SLACK 
 
-a. Crear un workspace y luego un canal, el workspace se crea para solicitar el token porque se necesita en el cÛdigo y tambiÈn el nombre del canal en slack.
+a. Crear un workspace y luego un canal, el workspace se crea para solicitar el token porque se necesita en el c√≥digo y tambi√©n el nombre del canal en slack.
 
-Crear un archivo con extension .py en el repositorio, donde se puede ver el cÛdigo en el siguiente link:
+Crear un archivo con extension .py en el repositorio, donde se puede ver el c√≥digo en el siguiente link:
 **URL:** https://github.com/Lauraitp/so-exam2/blob/laura-exam2/A00054120/codigo_punto6/codigo_punto6.py 
 
-No sobra aclarar que los paquetes que se instalaron en el paso 0 del tutorial ser·n de mucha utilidad en este punto.
+No sobra aclarar que los paquetes que se instalaron en el paso 0 del tutorial ser√°n de mucha utilidad en este punto.
 
 
 Para programar las tareas se ejecuta el comando 
@@ -272,6 +272,6 @@ Respuesta:
 
 ![](imagenes/cada5.png)
 
-Para otros tiempos aquÌ otros ejemplos:
+Para otros tiempos aqu√≠ otros ejemplos:
 
 ![](imagenes/tareas.png)
