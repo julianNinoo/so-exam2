@@ -1,0 +1,38 @@
+import os
+import cli.log
+import cli.app
+import psutil
+from slackclient import SlackClient
+
+@cli.app.CommandLineApp
+def algoritmo(app):
+	print('==================SO-EXAM2=================')
+	if algoritmo.params.joan==True:
+		print('JSGD hizo este algoritmo')
+	if algoritmo.params.procesador==True:
+		print(psutil.cpu_stats())
+	if algoritmo.params.memoria==True:
+		print(psutil.virtual_memory())
+	if algoritmo.params.disco==True:
+		print(psutil.disk_partitions())
+		print(psutil.disk_usage('/'))	
+	if algoritmo.params.slack==True:
+		print('espera')		
+		token  = 'xoxp-357599412018-356902356176-358495700118-78894c9d2ee60a722cc39a07a26d92ea'
+		sc = SlackClient(token)
+		texto = 'CPU: \n'+str(psutil.cpu_stats()) +'\n'+ 'Memoria: \n'+str(psutil.virtual_memory())+'\n'+'Discos: \n'+str(psutil.disk_partitions())+' '+ str(psutil.disk_usage('/'))
+		sc.api_call("chat.postMessage",	channel="CAJK1Q2LX",text=texto,user="joan.garcia1")		
+	pass
+algoritmo.add_param("-j","--joan", help="Joan es el autor y nadie mas", default=False, action="store_true")
+algoritmo.add_param("-cpu","--procesador", help="Devuelve los valores del procesador", default=False, action="store_true")
+algoritmo.add_param("-mem","--memoria", help="Devuelve los valores de la memoria", default=False, action="store_true")
+algoritmo.add_param("-dis","--disco", help="Devuelve los discos disponibles", default=False, action="store_true")
+algoritmo.add_param("-slack","--slack", help="Imprime en un canal de slack los valor de CPU,memoria y discos", default=False, action="store_true")
+
+
+
+
+
+
+if __name__ == "__main__":
+    algoritmo.run()
