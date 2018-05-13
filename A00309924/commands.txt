@@ -1,0 +1,40 @@
+    1  pwd
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd operativos
+    6  whoami
+    7  git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions\n
+    8  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh\n
+    9  echo something
+   10  ~/.oh-my-zsh/custom/zsh-autosuggestions-config.zsh
+   11  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh\nZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
+   12  exit
+   13  echo something
+   14  ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/src/config.zsh
+   15  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh\n
+   16  su root
+   17  ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+   18  whoami
+   19  cd ..
+   20  ls
+   21  cd home
+   22  ls
+   23  cd operativos
+   24  ls
+   25  vi ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+   26  vim ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+   27  vi ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+   28  echo something
+   29  whoami
+   30  exit
+   31  whoami
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd ope
+   36  cd operativos
+   37  ls
+   38  echo somethin
+   39  source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+   40  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
